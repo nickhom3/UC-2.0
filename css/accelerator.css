@@ -1,0 +1,84 @@
+#bg {
+  position: fixed !important;
+}
+
+
+/*--------------- Hero ------------------*/
+
+.hero {
+  width: 100%;
+  height: 40%;
+}
+
+.cta {
+  margin: 2% auto 0 auto;
+  width: 60%;
+}
+
+.hero-logo {
+  display: block;
+  width: 15%;
+  height: auto;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: rgba(4, 39, 66, 1);
+  font-weight: 500;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  width: 80%;
+  font-size: 2rem;
+  margin: 0 auto .5em auto;
+  color: rgba(4, 39, 66, 1);
+}
+
+.blue {
+  color: #0C74C1;
+}
+
+
+
+/* --------- Committees ------------ */
+
+
+#accelerator {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-container {
+  width: 90%;
+  margin: 0 auto 3em auto;
+  text-align: center;
+  font-weight: 200;
+  line-height: 1.5rem;
+  color: rgba(4, 39, 66, 1);
+}
+
+.box {
+  background-color: #fff;
+  box-shadow: rgba(0,0,0,.16) 0 4px 6px;
+  border-radius: 10px;
+  margin: 2em auto 0 auto;
+  padding: 2em;
+  width: 40%;
+  text-align: center;
+  font-weight: 200;
+  color: rgba(4, 39, 66, 1);
+  line-height: 1.5rem;
+}
+
+.box i {
+  font-size: 2rem;
+  color: #0C74C1;
+  margin-bottom: .5em;
+}

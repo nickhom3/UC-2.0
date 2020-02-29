@@ -13,10 +13,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="img/favicon.ico">
   <link href="css/index.css" type='text/css' rel="stylesheet">
+  <link href="css/global.css" type='text/css' rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:300&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a6d7af04af.js" crossorigin="anonymous"></script>
-  <script src="app.js"></script>
 </head>
 
 <body>
@@ -24,22 +24,26 @@
   <img src="assets/" alt="" class="herobg">
   <nav>
     <div class="nav-container">
-      <img id="nav-logo" src="assets/navlogo.svg" alt="">
+      <a id="logo-wrap" href="index.html"><img id="nav-logo" src="assets/navlogo.svg" alt=""></a>
       <ul class="nav-list">
         <li class="edge-item">
-          <a href="/">About</a>
+          <a href="pages/team.html">About</a>
+          <div class="dropdown-content">
+            <a href="pages/team.html">Team</a>
+            <a href="pages/committees.html">Committees</a>
+          </div>
         </li>
         <li>
-          <a href="/">Accelerator</a>
+          <a href="pages/accelerator">Accelerator</a>
         </li>
         <li>
-          <a href="/">Work with us</a>
+          <a href="pages/forclients.html">Work with us</a>
         </li>
         <li>
-          <a href="/">Contact</a>
+          <a href="pages/contact.html">Contact</a>
         </li>
         <li>
-          <a href="/">FAQ</a>
+          <a href="pages/faq.html">FAQ</a>
         </li>
       </ul>
       <div class="nav-boxes">
@@ -64,14 +68,98 @@
       <h1>Welcome to <span class="blue">U</span>Consulting</h1>
       <h2>Developing UCLA&#39;s future consultants, entrepreneurs, and business leaders</h2>
     </div>
-
+  <div id="bg"></div>
   </section>
 
-  <div id="particles-js"></div>
-  <script src="js/particles.js"></script>
-  <script src="js/app.js"></script>
+  <section class="content">
+    <div class="content-box flex-col">
+      <div class="box-wrap">
+        <h3>Our Mission</h3>
+        <p>UConsulting is the premier undergraduate student consulting organization at UCLA. Founded with the belief that the consulting industry should be accessible to all backgrounds, UConsulting is dedicated to providing our members the resources and opportunities to find professional success in consulting.</p>
+      </div>
+    </div>
+    <div class="content-box blue-box"  id="service">
+      <div class="box-wrap">
+        <h3>Our Services</h3>
+      </div>
+    <div id="service-flex">
+      <div class="service-box">
+        <h4>For Students</h4>
+        <ul>
+          <li>
+            <i class="fas fa-pencil-ruler"></i>
+            <div class="vert"></div>
+            <p>Learn the skills necessary to excel as a management consultant through weekly meetings and workshops.</p>
+          </li>
+          <li>
+            <i class="fas fa-project-diagram"></i>
+            <div class="vert"></div>
+            <p>Along with exclusive tours and networking sessions with top consulting firms and guest speakers, we also pride ourselves in our community with regular socials and retreats.</p>
+          </li>
+          <li>
+            <i class="fas fa-paper-plane"></i>
+            <div class="vert"></div>
+            <p>Through direct exposure to real business problems through our quarterly project cycles, members can hone their analytical skills.</p>
+          </li>
+        </ul>
+        <div class="button-wrap">
+           <a class="button-box" href="/">Learn More</a>
+        </div>
+      </div>
+      <div class="service-box">
+        <h4>For Clients</h4>
+        <ul>
+          <li>
+            <i class="fas fa-pencil-ruler"></i>
+            <div class="vert"></div>
+            <p>Learn the skills necessary to excel as a management consultant through weekly meetings and workshops.</p>
+          </li>
+          <li>
+            <i class="fas fa-project-diagram"></i>
+            <div class="vert"></div>
+            <p>Along with exclusive tours and networking sessions with top consulting firms and guest speakers, we also pride ourselves in our community with regular socials and retreats.</p>
+          </li>
+          <li>
+            <i class="fas fa-paper-plane"></i>
+            <div class="vert"></div>
+            <p>Through direct exposure to real business problems through our quarterly project cycles, members can hone their analytical skills.</p>
+          </li>
+        </ul>
+        <div class="button-wrap">
+           <a class="button-box" href="/">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="content-box rev-slant blue-box">
+      <div class="box-wrap">
+        <h3>Our Careers</h3>
+      </div>
+    </div>
+  </section>
+  <footer>
+
+  </footer>
+
+
+<script src="js/three.min.js"></script>
+<!-- BG Script ----------------------------------->
+<script src="js/vanta.dots.min.js"></script>
+<script>
+VANTA.DOTS({
+  el: "#bg, footer",
+  mouseControls: true,
+  touchControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x0C74C1,
+  backgroundColor: 0xffffff,
+  showLines: false
+})
+</script>
+<!------------------------------------------------>
+
 </body>
 </html>
-
-      </body>
-    </html>
